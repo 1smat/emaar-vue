@@ -1,3 +1,3 @@
-# yarn 
-# yarn dev - development
-# yarn build - production
+# $ yarn 
+# $ yarn dev - development
+# $ yarn build - production
