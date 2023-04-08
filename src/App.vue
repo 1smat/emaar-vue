@@ -1,16 +1,18 @@
 <script setup lang="ts">
 
-import Container from './components/01-Container.vue'
-import Header from './components/02-Header.vue'
+import Container from './components/container/Container.vue'
+import Header from './components/header/Header.vue'
+import SaleSection from './components/sections/sale-section/index.vue'
+import TopProjectsSection from './components/sections/top-projects/index.vue'
 
 </script>
 
 <template>
+  <Header />
   <Container>
-    <h1>child item</h1>
-    <Header />
+
+    <SaleSection />
+    <TopProjectsSection />
 
   </Container>
 </template>
-
-
