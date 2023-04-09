@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+	font-family: "Alethia Pro";
+	src: url(../fonts/alethiapro-regular.otf);
+}

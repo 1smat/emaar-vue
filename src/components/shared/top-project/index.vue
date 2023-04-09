@@ -10,7 +10,7 @@ defineProps<{ image: string, title: string, info: string }>()
 		<div class="inner">
 			<div class="data">
 				<div class="title">
-					$ {{ title }} bln
+					{{ title }}
 				</div>
 				<div class="info">
 					{{ info }}
@@ -65,6 +65,7 @@ defineProps<{ image: string, title: string, info: string }>()
 				text-transform: uppercase;
 
 				color: #071C35;
+				margin-top: 7px;
 
 			}
 		}

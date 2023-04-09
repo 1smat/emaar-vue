@@ -4,6 +4,7 @@ import Container from './components/container/Container.vue'
 import Header from './components/header/Header.vue'
 import SaleSection from './components/sections/sale-section/index.vue'
 import TopProjectsSection from './components/sections/top-projects/index.vue'
+import LocationSection from './components/sections/location/index.vue'
 
 </script>
 
@@ -13,6 +14,8 @@ import TopProjectsSection from './components/sections/top-projects/index.vue'
 
     <SaleSection />
     <TopProjectsSection />
+    <LocationSection />
+
 
   </Container>
 </template>
