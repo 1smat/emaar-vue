@@ -1,12 +1,15 @@
 <script lang="ts" setup>
 import SliderCard from '../../shared/slider-card/index.vue'
-import dubai from '../../../assets/img/content/location/dubai-creek.png'
+import creekDay from '../../../assets/img/content/details/creek-day.png'
 import arrowRightIcon from '../../../assets/img/icons/right-arrow.svg'
 import arrowLeftIcon from '../../../assets/img/icons/left-arrow.svg'
 
+defineProps<{ image: string }>()
+
+
 const sliderCards = [
 	{
-		image: dubai,
+		image: creekDay,
 		title: "title",
 		info: "bedrooms 1-3",
 		desc: "Creek Rise comprises two beautifully designed residential high-rises with unparalleled views overlooking the Creek Island’s lush parkland, set in a family-oriented neighbourhood.",

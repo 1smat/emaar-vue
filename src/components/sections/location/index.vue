@@ -1,10 +1,4 @@
 <script setup lang="ts">
-// import TopProject from '../../shared/top-project/index.vue'
-
-// import background from '../../../assets/img/sale-image.png'
-// import project1 from '../../../assets/img/content/top-projects/1.jpg'
-// import project2 from '../../../assets/img/content/top-projects/2.jpg'
-// import project3 from '../../../assets/img/content/top-projects/3.jpg'
 import dot from '../../../assets/img/dot.svg'
 import creek from '../../../assets/img/content/location/dubai-creek.png'
 import LocationModal from '../../shared/location-modal/index.vue';
