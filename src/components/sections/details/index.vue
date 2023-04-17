@@ -38,12 +38,9 @@ import SliderSection from '../slider/index.vue'
 
 <style lang="scss" scoped>
 .details {
-	// margin-top: 26px;
 	display: flex;
 	justify-content: space-between;
-	gap: 26px;
-	padding: 30px;
-	width: 970;
+	gap: 20px;
 
 
 	.navigation {
