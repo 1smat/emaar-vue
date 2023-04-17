@@ -13,7 +13,7 @@ defineProps<{ children?: any }>()
 
 <style scoped>
 .container {
-	width: 1200px;
+	width: 1300px;
 	margin: 0 auto;
 }
 </style>

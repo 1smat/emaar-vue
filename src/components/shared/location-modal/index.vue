@@ -25,14 +25,8 @@ defineProps<{ image: string, title: string }>()
 	background: #FFFFFF;
 	border: 1px solid rgba(0, 0, 0, 0.05);
 	box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.03);
-
 	left: -79px;
 	top: -218px;
-
-
-
-
-	img {}
 
 	.inner {
 		height: 80px;

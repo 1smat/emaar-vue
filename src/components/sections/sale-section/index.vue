@@ -43,7 +43,8 @@ import logo from '../../../assets/img/logo.png'
 <style lang="scss" scoped>
 .sale {
 	display: flex;
-	justify-content: space-between;
+	// justify-content: space-between;
+	gap: 54px;
 	padding-top: 136px;
 
 
@@ -65,7 +66,7 @@ import logo from '../../../assets/img/logo.png'
 		display: flex;
 		flex-direction: column;
 		max-width: 657px;
-		padding: 55px;
+		padding-top: 75px;
 
 		.title {
 			font-family: 'Alethia Pro';

@@ -40,12 +40,9 @@ import LocationModal from '../../shared/location-modal/index.vue';
 .location {
 	height: 810px;
 	background-image: url('../../../assets/img/content/location/map.jpg');
-
-
 	margin-top: 109px;
 	display: flex;
 	flex-direction: row;
-	// justify-content: space-between;
 	position: relative;
 
 	.title-wrapper {
